@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "c418musicrestored:music_disc_intro"
+    },
+    "title": {
+      "translate": "advancements.music_disc_intro_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.music_disc_intro_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "music_disc_intro_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "c418musicrestored:music_disc_intro"
+            ],
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 65
+  },
+  "parent": "minecraft:end/find_end_city"
+}

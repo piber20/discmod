@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "c418musicrestored:music_disc_eleven"
+    },
+    "title": {
+      "translate": "advancements.music_disc_eleven_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.music_disc_eleven_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "music_disc_eleven_advancement_0": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "c418musicrestored:music_disc_eleven"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 65
+  },
+  "parent": "minecraft:adventure/play_jukebox_in_meadows"
+}

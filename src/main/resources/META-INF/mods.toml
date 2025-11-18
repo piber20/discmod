@@ -1,0 +1,51 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Public Domain"
+
+[[mods]]
+modId="c418musicrestored"
+version="1.0.0"
+displayName="C418 Music Restored"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Piber"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.c418musicrestored]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.c418musicrestored]]
+    modId="cupboard"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.c418musicrestored]]
+    modId="lootintegrations"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.c418musicrestored]]
+    modId="cupboard"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.c418musicrestored]]
+    modId="lootintegrations"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

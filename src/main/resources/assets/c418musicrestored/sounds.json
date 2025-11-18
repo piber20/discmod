@@ -1,0 +1,58 @@
+{
+  "music_disc_death": {
+    "sounds": [
+      {
+        "name": "c418musicrestored:death",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_chris": {
+    "sounds": [
+      {
+        "name": "c418musicrestored:chris",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_dog": {
+    "sounds": [
+      {
+        "name": "c418musicrestored:dog",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_droopy_likes_ricochet": {
+    "sounds": [
+      {
+        "name": "c418musicrestored:droopy_likes_ricochet",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_droopy_likes_your_face": {
+    "sounds": [
+      {
+        "name": "c418musicrestored:droopy_likes_your_face",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_eleven": {
+    "sounds": [
+      {
+        "name": "c418musicrestored:eleven",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_intro": {
+    "sounds": [
+      {
+        "name": "c418musicrestored:intro",
+        "stream": true
+      }
+    ]
+  }
+}

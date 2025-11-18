@@ -1,0 +1,305 @@
+{
+  "mod_elements": [
+    {
+      "name": "MusicDiscDeath",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_death",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/c418musicrestored/models/item/music_disc_death.json",
+          "src/main/java/net/piber/musicrestored/item/MusicDiscDeathItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscChris",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_chris",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/c418musicrestored/models/item/music_disc_chris.json",
+          "src/main/java/net/piber/musicrestored/item/MusicDiscChrisItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscDog",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_dog",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/c418musicrestored/models/item/music_disc_dog.json",
+          "src/main/java/net/piber/musicrestored/item/MusicDiscDogItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscDroopyLikesRicochet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_droopy_likes_ricochet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/piber/musicrestored/item/MusicDiscDroopyLikesRicochetItem.java",
+          "src/main/resources/assets/c418musicrestored/models/item/music_disc_droopy_likes_ricochet.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscDroopyLikesYourFace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_droopy_likes_your_face",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/c418musicrestored/models/item/music_disc_droopy_likes_your_face.json",
+          "src/main/java/net/piber/musicrestored/item/MusicDiscDroopyLikesYourFaceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscEleven",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_eleven",
+      "metadata": {
+        "files": [
+          "src/main/java/net/piber/musicrestored/item/MusicDiscElevenItem.java",
+          "src/main/resources/assets/c418musicrestored/models/item/music_disc_eleven.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscIntro",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_intro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/piber/musicrestored/item/MusicDiscIntroItem.java",
+          "src/main/resources/assets/c418musicrestored/models/item/music_disc_intro.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootDungeon",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_tables/chests/music_disc_loot_dungeon.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootMansion",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_mansion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_tables/music_disc_loot_mansion.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootAncientCity",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_ancient_city",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_tables/music_disc_loot_ancient_city.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootBuriedTreasure",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_buried_treasure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_tables/music_disc_loot_buried_treasure.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootEndCity",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_end_city",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_tables/music_disc_loot_end_city.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "music_disc_death",
+      "files": [
+        "death"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "music_disc_chris",
+      "files": [
+        "chris"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "music_disc_dog",
+      "files": [
+        "dog"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "music_disc_droopy_likes_ricochet",
+      "files": [
+        "droopy_likes_ricochet"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "music_disc_droopy_likes_your_face",
+      "files": [
+        "droopy_likes_your_face"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "music_disc_eleven",
+      "files": [
+        "eleven"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "music_disc_intro",
+      "files": [
+        "intro"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:MusicDiscIntro",
+      "~CUSTOM:MusicDiscEleven",
+      "~CUSTOM:MusicDiscDroopyLikesYourFace",
+      "~CUSTOM:MusicDiscDroopyLikesRicochet",
+      "~CUSTOM:MusicDiscDog",
+      "~CUSTOM:MusicDiscChris",
+      "~CUSTOM:MusicDiscDeath"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.music_menu_beginning": "",
+      "subtitles.music_menu_door": "",
+      "subtitles.music_disc_death": "",
+      "subtitles.music_menu_moog_city": "",
+      "subtitles.music_credits_equinoxe": "",
+      "subtitles.music_disc_chris": "",
+      "subtitles.music_ambient_excuse": "",
+      "subtitles.music_disc_dog": "",
+      "subtitles.music_disc_droopy_likes_ricochet": "",
+      "subtitles.music_disc_droopy_likes_your_face": "",
+      "subtitles.music_ambient_ki": "",
+      "subtitles.music_ambient_flake": "",
+      "subtitles.music_ambient_kyoto": "",
+      "subtitles.music_disc_eleven": "",
+      "subtitles.music_disc_intro": "",
+      "item.discmod.music_disc_chris.desc": "C418 - chris",
+      "item.discmod.music_disc_chris": "Music Disc",
+      "item.discmod.music_disc_death.desc": "C418 - death",
+      "item.discmod.music_disc_death": "Music Disc",
+      "item.discmod.music_disc_dog": "Music Disc",
+      "item.discmod.music_disc_dog.desc": "C418 - dog",
+      "item.discmod.music_disc_droopy_likes_ricochet": "Music Disc",
+      "item.discmod.music_disc_droopy_likes_ricochet.desc": "C418 - droopy likes ricochet",
+      "item.discmod.music_disc_droopy_likes_your_face.desc": "C418 - droopy likes your face",
+      "item.discmod.music_disc_droopy_likes_your_face": "Music Disc",
+      "item.discmod.music_disc_eleven": "Music Disc",
+      "item.discmod.music_disc_eleven.desc": "C418 - eleven",
+      "item.discmod.music_disc_intro": "Music Disc",
+      "item.discmod.music_disc_intro.desc": "C418 - intro",
+      "item.c418musicrestored.music_disc_death.desc": "C418 - death",
+      "item.c418musicrestored.music_disc_death": "Music Disc",
+      "item.c418musicrestored.music_disc_chris": "Music Disc",
+      "item.c418musicrestored.music_disc_chris.desc": "C418 - chris",
+      "item.c418musicrestored.music_disc_dog.desc": "C418 - dog",
+      "item.c418musicrestored.music_disc_dog": "Music Disc",
+      "item.c418musicrestored.music_disc_droopy_likes_ricochet": "Music Disc",
+      "item.c418musicrestored.music_disc_droopy_likes_ricochet.desc": "C418 - droopy likes ricochet",
+      "item.c418musicrestored.music_disc_droopy_likes_your_face.desc": "C418 - droopy likes your face",
+      "item.c418musicrestored.music_disc_droopy_likes_your_face": "Music Disc",
+      "item.c418musicrestored.music_disc_eleven": "Music Disc",
+      "item.c418musicrestored.music_disc_eleven.desc": "C418 - eleven",
+      "item.c418musicrestored.music_disc_intro": "Music Disc",
+      "item.c418musicrestored.music_disc_intro.desc": "C418 - intro"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/piber/musicrestored/init/C418musicrestoredModTabs.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/piber/musicrestored/init/C418musicrestoredModSounds.java",
+      "src/main/java/net/piber/musicrestored/C418musicrestoredMod.java",
+      "src/main/resources/assets/c418musicrestored/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/piber/musicrestored/init/C418musicrestoredModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "c418musicrestored",
+    "modName": "C418 Music Restored",
+    "version": "1.0.0",
+    "author": "Piber",
+    "websiteURL": "https://mcreator.net",
+    "license": "Public Domain",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.piber.musicrestored"
+  },
+  "mcreatorVersion": 202500228610
+}

@@ -1,0 +1,150 @@
+{
+  "music.menu": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/menu/door",
+        "stream": true
+      },
+      {
+        "name": "music/menu/moog_city",
+        "stream": true
+      },
+      {
+        "name": "music/menu/beginning",
+        "stream": true
+      }
+    ]
+  },
+  "music.credits": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/end/equinoxe",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.basalt_deltas": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/nether/excuse",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/ki",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/nether/excuse",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/ki",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/nether/excuse",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/ki",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/nether/excuse",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/ki",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/flake",
+        "stream": true
+      },
+      {
+        "name": "music/game/kyoto",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.frozen_peaks": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/flake",
+        "stream": true
+      },
+      {
+        "name": "music/game/kyoto",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/flake",
+        "stream": true
+      },
+      {
+        "name": "music/game/kyoto",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.stony_peaks": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/flake",
+        "stream": true
+      },
+      {
+        "name": "music/game/kyoto",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.bamboo_jungle": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/kyoto",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.cherry_grove": {
+	"replace": false,
+    "sounds": [
+      {
+        "name": "music/game/kyoto",
+        "stream": true
+      }
+    ]
+  }
+}
