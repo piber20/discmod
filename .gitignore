@@ -1,9 +1,9 @@
 .gradle
 **/build/
 !src/**/build/
-run/
-.mcreator/workspaceBackups/
-.eclipse/
+run
+.mcreator/workspaceBackups
+.eclipse
 
 # Ignore Gradle GUI config
 gradle-app.setting
