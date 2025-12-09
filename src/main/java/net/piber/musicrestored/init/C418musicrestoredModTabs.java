@@ -21,11 +21,11 @@ public class C418musicrestoredModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(C418musicrestoredModItems.MUSIC_DISC_DEATH.get());
 			tabData.accept(C418musicrestoredModItems.MUSIC_DISC_CHRIS.get());
 			tabData.accept(C418musicrestoredModItems.MUSIC_DISC_DOG.get());
 			tabData.accept(C418musicrestoredModItems.MUSIC_DISC_DROOPY_LIKES_RICOCHET.get());
 			tabData.accept(C418musicrestoredModItems.MUSIC_DISC_DROOPY_LIKES_YOUR_FACE.get());
+			tabData.accept(C418musicrestoredModItems.MUSIC_DISC_DEATH.get());
 			tabData.accept(C418musicrestoredModItems.MUSIC_DISC_ELEVEN.get());
 			tabData.accept(C418musicrestoredModItems.MUSIC_DISC_INTRO.get());
 		}

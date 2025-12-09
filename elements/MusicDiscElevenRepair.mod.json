@@ -7,20 +7,20 @@
     "group": "",
     "unlockingItems": [
       {
-        "value": "Items.DIAMOND"
+        "value": "Items.RECORD_11"
       },
       {
-        "value": "Items.RECORD_11"
+        "value": "Items.NETHER_STAR"
       }
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.NETHER_STAR"
       },
       {
         "value": "Items.RECORD_11"
@@ -29,19 +29,19 @@
         "value": ""
       },
       {
-        "value": "Items.RECORD_11"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Items.RECORD_11"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.RECORD_11"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""

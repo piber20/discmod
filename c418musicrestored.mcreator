@@ -286,7 +286,17 @@
       "CUSTOM:MusicDiscIntro"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "TOOLS": [
+      "MusicDiscChris",
+      "MusicDiscDog",
+      "MusicDiscDroopyLikesRicochet",
+      "MusicDiscDroopyLikesYourFace",
+      "MusicDiscDeath",
+      "MusicDiscEleven",
+      "MusicDiscIntro"
+    ]
+  },
   "language_map": {
     "en_us": {
       "subtitles.music_menu_beginning": "",
@@ -356,11 +366,11 @@
   "workspaceSettings": {
     "modid": "c418musicrestored",
     "modName": "C418 Music Restored",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Piber",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://piber.me/",
     "license": "Public Domain",
-    "serverSideOnly": false,
+    "serverSideOnly": true,
     "requiredMods": [
       "cupboard",
       "lootintegrations"
