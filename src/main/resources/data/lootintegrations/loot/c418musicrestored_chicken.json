@@ -1,6 +1,6 @@
 {
   "loot_table": "c418musicrestored:entities/music_disc_loot_chicken_rare",
-  "max_result_itemcount": 10,
+  "max_result_itemcount": 99,
   "integrated_loot_tables":
   {
     "minecraft:entities/chicken": 1
