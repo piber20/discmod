@@ -18,7 +18,15 @@
     "music_disc_eleven_advancement_0": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "items": [
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "c418musicrestored:music_disc_eleven"
+              ]
+            }
+          },
           {
             "condition": "minecraft:location_check",
             "predicate": {
@@ -27,14 +35,6 @@
                   "minecraft:jukebox"
                 ]
               }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "c418musicrestored:music_disc_eleven"
-              ]
             }
           }
         ]
