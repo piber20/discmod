@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "c418musicrestored:music_disc_intro"
+      "id": "c418musicrestored:music_disc_death"
     },
     "title": {
-      "translate": "advancements.music_disc_intro_advancement.title"
+      "translate": "advancements.music_disc_death_advancement.title"
     },
     "description": {
-      "translate": "advancements.music_disc_intro_advancement.descr"
+      "translate": "advancements.music_disc_death_advancement.descr"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -15,12 +15,12 @@
     "hidden": true
   },
   "criteria": {
-    "music_disc_intro_advancement_0": {
+    "music_disc_death_advancement_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "c418musicrestored:music_disc_intro",
+            "items": "c418musicrestored:music_disc_death",
             "count": {
               "min": 1,
               "max": 99
@@ -31,7 +31,7 @@
     }
   },
   "rewards": {
-    "experience": 65
+    "experience": 50
   },
-  "parent": "minecraft:end/find_end_city"
+  "parent": "minecraft:adventure/shoot_arrow"
 }

@@ -1,8 +1,0 @@
-{
-  "loot_table": "c418musicrestored:chests/music_disc_loot_mansion",
-  "max_result_itemcount": 27,
-  "integrated_loot_tables":
-  {
-    "minecraft:chests/woodland_mansion": 1
-  }
-}

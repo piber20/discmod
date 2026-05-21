@@ -278,6 +278,18 @@
           "src/main/resources/data/c418musicrestored/loot_modifiers/music_disc_loot_modifier_chicken.json"
         ]
       }
+    },
+    {
+      "name": "MusicDiscDeathAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_death_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/advancement/music_disc_death_advancement.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -424,7 +436,9 @@
       "advancements.music_disc_eleven_advancement.title": "Lost Tunes",
       "advancements.music_disc_eleven_advancement.descr": "Repair and play Music Disc Eleven in a Jukebox.",
       "advancements.music_disc_intro_advancement.title": "See You Next Time",
-      "advancements.music_disc_intro_advancement.descr": "Find the Music Disc at the end of the game."
+      "advancements.music_disc_intro_advancement.descr": "Find the Music Disc at the end of the game.",
+      "advancements.music_disc_death_advancement.title": "How Charismatic",
+      "advancements.music_disc_death_advancement.descr": "Kill a Chicken and get its rare drop"
     }
   },
   "metadata": {
