@@ -206,6 +206,78 @@
           "src/main/resources/data/c418musicrestored/advancement/music_disc_intro_advancement.json"
         ]
       }
+    },
+    {
+      "name": "MusicDiscLootModifierDungeon",
+      "type": "lootmodifier",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_modifier_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_modifiers/music_disc_loot_modifier_dungeon.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootModifierMansion",
+      "type": "lootmodifier",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_modifier_mansion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_modifiers/music_disc_loot_modifier_mansion.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootModifierAncientCity",
+      "type": "lootmodifier",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_modifier_ancient_city",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_modifiers/music_disc_loot_modifier_ancient_city.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootModifierBuriedTreasure",
+      "type": "lootmodifier",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_modifier_buried_treasure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_modifiers/music_disc_loot_modifier_buried_treasure.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootModifierEndCity",
+      "type": "lootmodifier",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_modifier_end_city",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_modifiers/music_disc_loot_modifier_end_city.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscLootModifierChicken",
+      "type": "lootmodifier",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_loot_modifier_chicken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/loot_modifiers/music_disc_loot_modifier_chicken.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -357,6 +429,7 @@
   },
   "metadata": {
     "files": [
+      "src/main/resources/data/neoforge/loot_modifiers/global_loot_modifiers.json",
       "src/main/java/net/piber/musicrestored/init/C418musicrestoredModItems.java",
       "src/main/java/net/piber/musicrestored/init/C418musicrestoredModTabs.java",
       "src/main/java/net/piber/musicrestored/init/C418musicrestoredModSounds.java",

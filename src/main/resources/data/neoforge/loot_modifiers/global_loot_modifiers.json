@@ -1,0 +1,11 @@
+{
+  "entries": [
+    "c418musicrestored:music_disc_loot_modifier_dungeon",
+    "c418musicrestored:music_disc_loot_modifier_mansion",
+    "c418musicrestored:music_disc_loot_modifier_ancient_city",
+    "c418musicrestored:music_disc_loot_modifier_buried_treasure",
+    "c418musicrestored:music_disc_loot_modifier_end_city",
+    "c418musicrestored:music_disc_loot_modifier_chicken"
+  ],
+  "replace": false
+}

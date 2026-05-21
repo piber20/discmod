@@ -1,0 +1,8 @@
+{
+  "_fv": 85,
+  "_type": "lootmodifier",
+  "definition": {
+    "modifiedTable": "minecraft:entities/chicken",
+    "modifierTable": "MusicDiscLootChickenRare"
+  }
+}
