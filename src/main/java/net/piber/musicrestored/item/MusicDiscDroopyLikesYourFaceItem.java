@@ -1,14 +1,15 @@
 package net.piber.musicrestored.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
+import net.piber.musicrestored.C418musicrestoredMod;
 
-import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 
-public class MusicDiscDroopyLikesYourFaceItem extends RecordItem {
+public class MusicDiscDroopyLikesYourFaceItem extends Item {
 	public MusicDiscDroopyLikesYourFaceItem() {
-		super(15, () -> ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("c418musicrestored:music_disc_droopy_likes_your_face")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 2310);
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(C418musicrestoredMod.MODID, "music_disc_droopy_likes_your_face"))));
 	}
 }

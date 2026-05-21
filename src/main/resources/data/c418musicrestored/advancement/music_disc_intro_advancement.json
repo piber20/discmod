@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "c418musicrestored:music_disc_intro"
+      "id": "c418musicrestored:music_disc_intro"
     },
     "title": {
       "translate": "advancements.music_disc_intro_advancement.title"
@@ -20,9 +20,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "c418musicrestored:music_disc_intro"
-            ],
+            "items": "c418musicrestored:music_disc_intro",
             "count": {
               "min": 1,
               "max": 99

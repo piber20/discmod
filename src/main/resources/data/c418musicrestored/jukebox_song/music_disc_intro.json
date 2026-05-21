@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.c418musicrestored.music_disc_intro.desc"
+  },
+  "length_in_seconds": 276,
+  "sound_event": "c418musicrestored:music_disc_intro"
+}

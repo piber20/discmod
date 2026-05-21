@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[47,)"
+loaderVersion="[4,)"
 license="Public Domain"
 
 [[mods]]
@@ -14,38 +14,25 @@ displayTest="IGNORE_SERVER_VERSION"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
 [[dependencies.c418musicrestored]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.20.1]"
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.c418musicrestored]]
-    modId="cupboard"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.c418musicrestored]]
-    modId="lootintegrations"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
     side="BOTH"
 
-[[dependencies.c418musicrestored]]
-    modId="cupboard"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.c418musicrestored]]
-    modId="lootintegrations"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
+
 
 
 # Start of user code block dependencies configuration

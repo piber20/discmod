@@ -6,11 +6,25 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "c418musicrestored:music_disc_intro",
+          "name": "minecraft:music_disc_mellohi",
           "weight": 15,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_wait",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
               "count": {
                 "min": 1,
                 "max": 1
@@ -24,7 +38,7 @@
           "weight": 15,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 1,
                 "max": 1
@@ -38,35 +52,7 @@
           "weight": 15,
           "functions": [
             {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 1,
                 "max": 1
@@ -77,5 +63,5 @@
       ]
     }
   ],
-  "random_sequence": "c418musicrestored:music_disc_loot_end_city"
+  "random_sequence": "c418musicrestored:music_disc_loot_buried_treasure"
 }
