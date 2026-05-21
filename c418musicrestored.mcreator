@@ -184,6 +184,30 @@
       }
     },
     {
+      "name": "MusicDiscElevenAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_eleven_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/advancement/music_disc_eleven_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscIntroAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_intro_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/advancement/music_disc_intro_advancement.json"
+        ]
+      }
+    },
+    {
       "name": "MusicDiscLootModifierDungeon",
       "type": "lootmodifier",
       "compiles": true,
