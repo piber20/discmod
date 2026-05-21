@@ -16,14 +16,25 @@
   },
   "criteria": {
     "music_disc_eleven_advancement_0": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "items": [
           {
-            "items": "c418musicrestored:music_disc_eleven",
-            "count": {
-              "min": 1,
-              "max": 99
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "c418musicrestored:music_disc_eleven"
+              ]
             }
           }
         ]
