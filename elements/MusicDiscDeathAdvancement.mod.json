@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "How Charismatic",
-    "achievementDescription": "Kill a Chicken and get its rare drop",
+    "achievementDescription": "Shoot a Chicken and get its rare drop",
     "achievementIcon": {
       "value": "CUSTOM:MusicDiscDeath"
     },
@@ -11,7 +11,7 @@
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": true,
+    "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardXP": 50,

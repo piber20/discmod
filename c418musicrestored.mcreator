@@ -290,6 +290,74 @@
           "src/main/resources/data/c418musicrestored/advancement/music_disc_death_advancement.json"
         ]
       }
+    },
+    {
+      "name": "MusicDiscCreeperAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_creeper_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c418musicrestored/advancement/music_disc_creeper_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscCreeperProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_creeper_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/piber/musicrestored/procedures/MusicDiscCreeperProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscCreeperTrackRecentDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_creeper_track_recent_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/piber/musicrestored/procedures/MusicDiscCreeperTrackRecentDeathProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -438,7 +506,9 @@
       "advancements.music_disc_intro_advancement.title": "See You Next Time",
       "advancements.music_disc_intro_advancement.descr": "Find the Music Disc at the end of the game.",
       "advancements.music_disc_death_advancement.title": "How Charismatic",
-      "advancements.music_disc_death_advancement.descr": "Kill a Chicken and get its rare drop"
+      "advancements.music_disc_death_advancement.descr": "Shoot a Chicken and get its rare drop",
+      "advancements.music_disc_creeper_advancement.descr": "Get a Skeleton to kill a Creeper.",
+      "advancements.music_disc_creeper_advancement.title": "Friendly Fire"
     }
   },
   "metadata": {

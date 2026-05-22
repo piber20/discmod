@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat"
+    },
+    "title": {
+      "translate": "advancements.music_disc_creeper_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.music_disc_creeper_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "music_disc_creeper_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "minecraft:adventure/shoot_arrow"
+}
